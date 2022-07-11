@@ -4,7 +4,7 @@
   "description": "classroom for understanding tests",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start",
+    "test": "./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "qunit": "^2.19.1"
   },
   "devDependencies": {
+    "cypress": "^10.3.0",
     "karma": "^6.4.0",
     "karma-chrome-launcher": "^3.1.1",
     "karma-qunit": "^4.1.2"
