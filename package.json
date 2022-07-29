@@ -4,6 +4,7 @@
   "description": "classroom for understanding tests",
   "main": "app.js",
   "scripts": {
+    "start": "node ./server",
     "test": "./node_modules/karma/bin/karma start"
   },
   "repository": {
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/blacklabel/highcharts-tests#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "highcharts": "^10.1.0",
     "qunit": "^2.19.1"
